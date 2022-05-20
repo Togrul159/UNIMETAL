@@ -245,6 +245,20 @@
             left: -5px !important;
             border-radius: 25px;
         }
+        #Calculation .button-wrap .nav-pills .nav-item {
+            width: 30% !important;
+            margin: 0 5px;
+        }
+        #Calculation .button-wrap .nav-pills {
+            width: 100% !important;
+            height: 100%;
+            display: flex;
+            flex-direction: unset !important;
+        }
+        #Calculation .button-wrap .title-btn img {
+            width: 75% !important;
+            padding: 20px !important;
+        }
     }
     
     @media only screen and (max-width:768px) {
@@ -323,6 +337,9 @@
             display: flex;
             flex-direction: column-reverse;
         }
+        #Calculation .tab-content .calculationForms {
+            margin: 0 !important;
+        }
     }
     
     @media only screen and (max-width: 700px) {
@@ -365,6 +382,29 @@
             transform: translate3d(-1310px, 0px, 0px);
             align-items: center;
         }
+        #Calculation .homeImg {
+            margin-bottom: 5rem !important;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        #Calculation .CheckEuropanel {
+            position: absolute;
+            top: 77% !important;
+            right: 10%;
+            padding: 5px 10px !important;
+            color: #fff;
+            font-size: 16px !important;
+            background-color: #4473E2;
+            border-radius: 10px;
+        }
+        #Calculation .HipHomeOt .ot {
+            position: absolute;
+            z-index: 123;
+            top: 20px !important;
+            left: -10px !important;
+        }
     }
     
     @media only screen and (max-width:460px) {
@@ -374,7 +414,20 @@
         .button-wrap ul li {
             width: 29% !important;
             height: 100%;
-            margin: 0 6px;
+            margin: 5px 6px;
+        }
+        #Calculation .homeImg .ot {
+            position: absolute;
+            z-index: 123;
+            top: 36px !important;
+            left: -10px !important;
+        }
+        #Calculation .homeImg .ot img {
+            width: 100% !important;
+        }
+        #Calculation .homeImg img {
+            width: 70% !important;
+            z-index: 45555;
         }
         #MetalCalculation .kgSm {
             display: none;
@@ -708,6 +761,61 @@
         }
         #Desing .f-dropdown ul {
             left: 3px !important;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm {
+            display: flex;
+            width: 100%;
+            flex-direction: column !important;
+            align-items: center;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm label {
+            width: 100% !important;
+            text-align: start !important;
+            margin: 0 10px;
+            color: #496DB7;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm select {
+            width: 100% !important;
+            border: 1px solid #4A6AA540;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: #496DB78C;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm input {
+            width: 100% !important;
+            border: 1px solid #4A6AA540;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: #496DB78C;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm .total-calculation {
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        #Calculation .button-wrap .nav-pills {
+            width: 100% !important;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        #Calculation .button-wrap .nav-pills .nav-item {
+            width: 29% !important;
+        }
+        #Calculation .button-wrap .title-btn img {
+            width: 100% !important;
+            padding: 10px !important;
+        }
+        #Calculation .button-wrap .nav-pills {
+            display: flex !important;
+            flex-direction: unset !important;
+            align-items: center !important;
         }
     }
     

@@ -281,6 +281,19 @@ nav .fixed-menu .fixMenu .social a i {
     font-weight: 600;
 }
 
+.nav-second .page-item .dropdown-menu a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-second .page-item .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
+
 .nav-second .fixed-menu {
     position: fixed;
     margin: 30px 0;
@@ -717,7 +730,7 @@ nav .fixed-menu .fixMenu .social a i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 97%;
+    width: 96.5%;
     height: 90vh;
     position: relative;
     margin: 2rem 0px 0px 45px;
