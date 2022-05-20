@@ -394,6 +394,32 @@
             top: -2.3%;
             left: 9.6% !important;
         }
+        #Desing .overlayRoof .gable {
+            width: 70% !important;
+            position: absolute;
+            top: -5% !important;
+            left: 14.6% !important;
+        }
+        #Desing .overlayRoof .gable .overlayR {
+            position: absolute;
+            left: 2.2% !important;
+            top: -7.8% !important;
+            width: 100% !important;
+            mix-blend-mode: multiply;
+        }
+        #Desing .overlayRoof .hip {
+            width: 70% !important;
+            position: absolute;
+            top: -2.3%;
+            left: 14.6% !important;
+        }
+        #Desing .overlayRoof .hip .overlayR {
+            position: absolute;
+            left: -0.7% !important;
+            top: 0.7% !important;
+            width: 100% !important;
+            mix-blend-mode: multiply;
+        }
         #Desing .homeImg .ot {
             position: absolute;
             z-index: 123;
