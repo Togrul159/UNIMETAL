@@ -3364,6 +3364,8 @@ button:focus {
 #Desing .button-wrap .nav-item {
     display: flex;
     justify-content: center;
+    width: 33.3%;
+    height: 100%;
 }
 
 #Desing .button-wrap .nav-item .active {
@@ -3398,7 +3400,6 @@ button:focus {
 .nav-fill>.nav-link {
     flex: none;
     text-align: center;
-    margin: 0 50px;
 }
 
 #Desing .title-btn {
@@ -3410,7 +3411,7 @@ button:focus {
 }
 
 #Desing .button-wrap .title-btn img {
-    width: 140px;
+    width: 100%;
     padding: 10px;
 }
 

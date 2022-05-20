@@ -315,8 +315,13 @@
             justify-content: center;
         }
         .button-wrap ul li {
-            width: 25% !important;
+            width: 100% !important;
+            height: 100%;
             margin: 5px 0;
+        }
+        .mbColor {
+            display: flex;
+            flex-direction: column-reverse;
         }
     }
     
@@ -367,8 +372,9 @@
             height: 100px !important;
         }
         .button-wrap ul li {
-            width: 50% !important;
-            margin: 5px 0;
+            width: 29% !important;
+            height: 100%;
+            margin: 0 6px;
         }
         #MetalCalculation .kgSm {
             display: none;
@@ -378,6 +384,21 @@
             box-shadow: 0px 4px 15px 0px #0000001a inset;
             padding: 20px;
             border-radius: 20px;
+        }
+        #Desing .homeImg .HomeDesingPosition .homeRelative img {
+            width: 70% !important;
+        }
+        #Desing .overlayRoof .roofType {
+            width: 70% !important;
+            position: absolute;
+            top: -2.3%;
+            left: 9.6% !important;
+        }
+        #Desing .homeImg .ot {
+            position: absolute;
+            z-index: 123;
+            top: 50px !important;
+            left: 15px;
         }
         #MetalCalculation .buttonKgHeight {
             display: flex;
@@ -623,6 +644,44 @@
         }
         #NewsTitle .wrapper {
             padding: 0px 0 !important;
+        }
+        #Desing .f-dropdown>span {
+            cursor: pointer;
+            padding: 3px 10px !important;
+            border-radius: 10px !important;
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: #bbb;
+            background: #fff;
+            border: 1px solid #4473E359;
+            transition: color 0.2s ease, border-color 0.2s ease;
+            box-shadow: 0px 4px 15px 0px #0000001a;
+        }
+        #Desing .f-group .CheckEuropanel {
+            position: relative;
+            margin: 0 0px !important;
+            width: 100% !important;
+            padding: 15px;
+            top: 22px !important;
+            left: -5px !important;
+            border-radius: 10px !important;
+        }
+        #Desing .f-dropdown ul li a {
+            cursor: pointer;
+            display: block;
+            padding: 5px 4px !important;
+            margin: 10px 0;
+            color: #000;
+            text-decoration: none;
+            outline: none;
+            position: relative;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+        }
+        #Desing .f-dropdown ul {
+            left: 3px !important;
         }
     }
     
