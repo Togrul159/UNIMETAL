@@ -4250,6 +4250,41 @@ button:focus {
 /* MyImg Modal end */
 
 
+/*  Language Start*/
+
+#language .modal-content {
+    border: none;
+    border-radius: 30px;
+}
+
+#language hr {
+    margin: 0%;
+    padding: 0;
+    display: none;
+}
+
+#language .langBtnSelect {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+#language .langBtnSelect img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+
+/*  Language End*/
+
+
 /* Footer Start */
 
 footer {
