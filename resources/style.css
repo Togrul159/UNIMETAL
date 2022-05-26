@@ -475,6 +475,25 @@ nav .fixed-menu .fixMenu .social a i {
     top: 0px;
     left: 0;
     z-index: 2434;
+    display: flex;
+}
+
+.menu__box .top-logo .flag-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu__box .top-logo .flag-btn button {
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu__box .top-logo .flag-btn button img {
+    width: 30%;
+    border: 3px solid #fff;
+    border-radius: 50%;
 }
 
 .hamburger-menu .contact {

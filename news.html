@@ -87,7 +87,13 @@
             </label>
             <ul class="menu__box">
                 <li class="top-logo">
+
                     <a href="index.html"> <img src="./resources/img/Logo.svg" alt=""></a>
+                    <div class="flag-btn">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                            </button>
+                    </div>
                 </li>
                 <li><a class="menu__item" href="about.html">HAQQIMIZDA</a></li>
                 <li><a class="menu__item" href="product.html">MƏHSULLAR</a></li>
@@ -398,6 +404,39 @@
         </div>
     </section>
     <!-- News About end -->
+    <!-- Modal -->
+    <div class="modal fade" id="language" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Dil Seçin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                <span>Azerbaija</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/turkeyFlag.png" alt="">
+                                <span>Turkey</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Language Modal End-->
     <!-- Footer Start -->
     <footer>
         <div class="container">
